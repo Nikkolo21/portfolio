@@ -1,0 +1,53 @@
+header {
+    height: 60px;
+    line-height: 80px;
+    padding: 20px 10% 0 10%;
+    color: grey;
+    font-size: 1.1em;
+    font-family: 'Poppins-Thin';
+    display: flex;
+    justify-content: space-between;
+}
+
+header .link {
+    color: rgba(10, 10, 10, 0.8);
+}
+
+header .name {
+    letter-spacing: 3px;
+}
+
+header .is-active {
+    position: relative;
+}
+
+header .is-active:before {
+    content : "";
+    position: absolute;
+    left    : 25%;
+    bottom  : 0;
+    height  : 5px;
+    width   : 50%;
+    border-bottom: solid 1px #12e6c8;
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #12e6c8;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+    border: none;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        font-size: .8em;
+    }
+}

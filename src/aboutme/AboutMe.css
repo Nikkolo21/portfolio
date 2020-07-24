@@ -1,0 +1,29 @@
+.about {
+    text-align: left;
+}
+
+.about h1 {
+    font-size: 2em;
+    width: fit-content;
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+.about p a {
+    border: none;
+}
+
+@media (max-width: 600px) {
+    .about {
+        padding: 20px;
+    }   
+    .about h1 {
+        font-size: 1.5em;
+    }
+
+    .about p {
+        font-size: 1em;
+    }
+}

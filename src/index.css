@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Roboto-light';
+  src: URL('/assets/type/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-black';
+  src: URL('/assets/type/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: URL('/assets/type/Poppins-Thin.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  src: URL('/assets/type/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: URL('/assets/type/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: URL('/assets/type/Poppins-Regular.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.green-mark {
+  position: relative;
+  padding: 10px;
+}
+
+
+.green-mark:before {
+  content : "";
+  position: absolute;
+  left    : 25%;
+  bottom  : 0;
+  height  : 5px;
+  width   : 50%;
+  border-bottom: solid 1px #12e6c8;
+}

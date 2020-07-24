@@ -1,0 +1,21 @@
+.footer-box {
+    height: 150px;
+    line-height: 150px;
+    color: grey;
+    border-top: solid .5px #aaa8a847;
+    font-size: 16px;
+    font-family: 'Poppins-ExtraLight';
+    text-align: right;
+    padding: 0px 10%;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+.footer-box span {
+    color: red;
+    font-size: 20px;
+}
+
+.footer-box .love {
+    margin-right: 20px;
+}

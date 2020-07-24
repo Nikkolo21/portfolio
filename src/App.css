@@ -1,0 +1,10 @@
+.App {
+  min-height: 100vh;
+  font-family: 'Poppins-ExtraLight';
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+section {
+    text-align: center;
+}
+
+section .title {
+    font-size: 1.2em;
+    width: 200px;
+    margin: 0 auto;
+}
+
+section .my-work {
+    padding: 50px 0;
+}
+
+section .my-work a {
+    color: black;
+}
+
