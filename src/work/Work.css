@@ -4,7 +4,7 @@ section {
 
 section .title {
     font-size: 1.2em;
-    width: 200px;
+    width: fit-content;
     margin: 0 auto;
 }
 
@@ -16,3 +16,13 @@ section .my-work a {
     color: black;
 }
 
+
+@media (max-width: 600px) {
+    section .title {
+        font-size: 1em;
+    }
+
+    section .my-work {
+        padding: 10px 0;
+    }
+}

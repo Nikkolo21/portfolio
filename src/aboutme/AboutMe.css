@@ -11,6 +11,12 @@
     font-size: 1.2em;
 }
 
+.about .icons img {
+    margin-right: 10px;
+    /*filter: grayscale(100%);*/
+    opacity: 0.8;
+}
+
 .about p a {
     border: none;
 }
